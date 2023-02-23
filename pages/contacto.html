@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <!-- Cargar Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Iconos de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!-- Cargar estilos personalizados -->
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+  </head>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html"
+        ><img src="../img/arkadia-logo.png" alt="logo de marca"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="justify-content-center collapse navbar-collapse"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tienda.html">Tienda</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Barra de navegación Cierre-->
+  <body>
+    <div class="form__back">
+      <form class="form">
+        <div class="form__container">
+          <h2 class="form__title">¿En qué te podemos ayudar?</h2>
+          <input type="text" class="form__input" placeholder="Nombre" />
+          <input type="email" class="form__input" placeholder="Email" />
+          <textarea
+            class="form__input form__input--message"
+            placeholder="Mensaje:"
+          ></textarea>
+
+          <input type="submit" value="Enviar" class="form__cta" />
+        </div>
+      </form>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+    <footer class="bg-dark text-white py-3">
+      <div class="container text-center">
+        <p>Derechos de autor © 2023 Arkadia. Todos los derechos reservados.</p>
+        <ul class="nav justify-content-center">
+          <li>
+            <a href="http://facebook.com"><i class="bi bi-facebook"></i></a>
+          </li>
+          <li>
+            <a href="http://instagram.com"><i class="bi bi-instagram"></i></a>
+          </li>
+          <li>
+            <a href="http://twitter.com"><i class="bi bi-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
