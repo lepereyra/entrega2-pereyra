@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+div i {
+  font-size: 3rem;
+}
+ul i {
+  font-size: 1.5rem;
+}
+
+.carousel-item {
+  background-color: blue;
+  max-height: 60vh;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px black;
+}
+li {
+  padding: 1rem;
+}
